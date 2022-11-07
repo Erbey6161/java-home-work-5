@@ -1,0 +1,5 @@
+package Kodlama.io.Devs.business.requests;
+
+public class CreateLanguageRequests {
+
+}

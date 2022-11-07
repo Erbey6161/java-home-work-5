@@ -1,0 +1,12 @@
+package Kodlama.io.Devs.business.abstracts;
+
+import Kodlama.io.Devs.business.requests.CreateTechnologyRequest;
+
+public interface TechnologiesService {
+	List<GetAllTechnologiesResponse> getAll();
+
+	void add(CreateTechnologyRequest createTechnologyRequest) throws Exception;
+	void delete(CreateTechnologyRequest createTechnologyRequest);
+	void update(CreateTechnologyRequest createTechnologyRequest)throws Exception;
+
+}
